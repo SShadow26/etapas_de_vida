@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="niñez, adolescencia, adultez, senectud">
+    <meta name="author" content="Adrian Parrilla">
+    <meta name="description" content="Explora las diferentes etapas de la vida humana">
+    <link href="css/normalize.css" rel="stylesheet" type="text/css">
+    <title>Etapas de vida</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <h1>Las etapas de la vida</h1><br><br>
+    <form action="">
+        <select name="edad" id="edad" onchange="cambiarImagen()">
+            <option value="" selected disabled hidden>Selecciona una edad</option>
+            <option value="niñez">Niñez (0 - 13 años)</option>
+            <option value="adolescencia">Adolescencia (14 a 23 años)</option>
+            <option value="juventud">Juventud (24 a 47 años)</option>
+            <option value="senectud">Senectud (48 años en adelante)</option>
+        </select>
+    </form>
+    <div class="espaciado"></div>
+
+    <img id="imagenEdad" src="/resources/img/etapas.png" alt="imagen de edad">
+
+    <script src="/js/etapas.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,128 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+@font-face {
+    font-family: 'Pacifico';
+    src: url('../resources/fonts/Pacifico.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'adrip1';
+    src: url('../resources/fonts/adrip1.ttf') format('truetype');
+}
+
+body {
+    margin-top  : 6rem;
+    text-align: center;
+    font-family: 'adrip1';
+    src: url('../resources/fonts/adrip1.ttf');
+    background: linear-gradient(90deg, #000000 1%, #8e2ed2 50%, #000000 99%);
+}
+
+h1 {
+    color: #52d64e;
+    font-size: 10rem;
+    text-shadow: 0.5rem 0 #000000;
+}
+
+form {
+    margin-top: -1rem;
+}
+
+select {
+    font-family: 'Pacifico';
+    src: url('../resources/fonts/Pacifico.ttf');
+    background: #560094;
+    color: #6bb43a;
+    text-align: center;
+    border: #6c01b9 solid 0.3rem;
+    border-radius: 5rem;
+    font-size: 3rem;
+}
+
+#imagenEdad {
+    width: 60rem;
+    height: 40rem;
+}
+
+.espaciado {
+    margin: 9rem;
+}
+
+@media (max-width: 200px) {
+    body {
+        margin-top: 0.3rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    select {
+        font-size: 1rem;
+    }
+    #imagenEdad {
+        width: 10rem;
+        height: 10rem;
+    }
+    .espaciado {
+        margin: 3rem;
+    }
+}
+
+@media (min-width: 201px) and (max-width: 767px) {
+    body {
+        margin-top: 1rem;
+    }
+    h1 {
+        font-size: 4rem;
+    }
+    select {
+        font-size: 2rem;
+    }
+    #imagenEdad {
+        width: 30rem;
+        height: 20rem;
+    }
+    .espaciado {
+        margin: 4rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    body {
+        margin-top: 4rem;
+    }
+    h1 {
+        font-size: 8rem;
+    }
+    select {
+        font-size: 2rem;
+    }
+    #imagenEdad {
+        width: 50rem;
+        height: 40rem;
+    }
+    .espaciado {
+        margin: 5rem;
+    }
+}
+
+@media (min-width: 1025px) {
+    body {
+        margin-top: 6rem;
+    }
+    h1 {
+        font-size: 8rem;
+    }
+    select {
+        font-size: 3rem;
+    }
+    #imagenEdad {
+        width: 60rem;
+        height: 40rem;
+    }
+    .espaciado {
+        margin: 3rem;
+    }
+}
